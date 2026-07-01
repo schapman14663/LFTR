@@ -39,6 +39,9 @@ As Exercise:
 - Additional Equipment (Straps, Wraps, Sleeves, Belts, etc...)
 - Has Sets
 - Sets have:
+either:
+- a time limit
+or
 - - Weights
 - - Reps
 - - - Target Reps
@@ -47,3 +50,4 @@ As Exercise:
 - - - Actual Reps
 - \[Optional] Progression Instructions
 - Notes
+- Rest Timer
