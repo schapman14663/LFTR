@@ -5,6 +5,11 @@ struct Exercise {
     set: Struct //This should probably be a list/array of structs
 }
 
+enum TypeOfSet{
+    Weight_Set,
+    Timed_Set,
+}
+
 struct Weight_Set { //I honestly don't know if I need to make this mutable yet, the intention is to
     //just create new sets rather than changing old ones. 
     weight: f32,
