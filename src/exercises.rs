@@ -2,12 +2,19 @@ struct Exercise {
     name: String,
     setup: String,
     equipment: String,
-    set: Struct //This should probably be a list/array of structs
+    sets: Struct //This should probably be a list/array of structs
 }
 
 enum TypeOfSet{
     Weight_Set,
     Timed_Set,
+}
+
+struct Timed_Set {
+    count_in: u8, //The problem I've had with certain apps is that you hit go and it immediately
+    //starts the timer even if you need time to get set up, this gets around that.
+    set_time: u16,
+    reps_performed: u16 //just in cse you're supposed to be counting reps.
 }
 
 struct Weight_Set { //I honestly don't know if I need to make this mutable yet, the intention is to
